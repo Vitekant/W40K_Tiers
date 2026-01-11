@@ -1,0 +1,151 @@
+{
+  "id": "space-marines",
+  "army": "Space Marines",
+  "source": "Auspex Tactics YouTube",
+  "lastUpdated": "2025-01-11",
+  "tiers": [
+    {
+      "id": "1",
+      "name": "Top Marine Units",
+      "description": "Standout strong above the rest",
+      "units": [
+        { "name": "Victrix Honour Guard", "points": "120/240", "isCharacter": false },
+        { "name": "Intercessor Squad", "points": null, "isCharacter": false },
+        { "name": "Scout Squad", "points": null, "isCharacter": false },
+        { "name": "Lieutenant With Combi-Weapon", "points": null, "isCharacter": true },
+        { "name": "Infiltrator Squad", "points": "100/200", "isCharacter": false },
+        { "name": "Incursor Squad", "points": null, "isCharacter": false },
+        { "name": "Bladeguard Veteran Squad", "points": null, "isCharacter": false },
+        { "name": "Eradicator Squad", "points": null, "isCharacter": false },
+        { "name": "Assault Intercessors With Jump Packs", "points": null, "isCharacter": false },
+        { "name": "Ballistus Dreadnought", "points": null, "isCharacter": false },
+        { "name": "Vindicator", "points": null, "isCharacter": false },
+        { "name": "Gladiator Lancer", "points": null, "isCharacter": false },
+        { "name": "Redemptor Dreadnought", "points": null, "isCharacter": false },
+        { "name": "Storm Speeder Hammerstrike", "points": null, "isCharacter": false },
+        { "name": "Repulsor Executioner", "points": null, "isCharacter": false },
+        { "name": "Land Raider Redeemer", "points": null, "isCharacter": false },
+        { "name": "Roboute Guilliman", "points": null, "isCharacter": true },
+        { "name": "Marneus Calgar", "points": null, "isCharacter": true },
+        { "name": "Uriel Ventris", "points": null, "isCharacter": true },
+        { "name": "Cato Sicarius", "points": null, "isCharacter": true }
+      ]
+    },
+    {
+      "id": "2a",
+      "name": "Stronger Marine Units",
+      "description": "Upper half of tier 2",
+      "units": [
+        { "name": "Inceptor Squad", "points": "120/240", "isCharacter": false },
+        { "name": "Hellblaster Squad", "points": null, "isCharacter": false },
+        { "name": "Centurion Devastator Squad", "points": null, "isCharacter": false },
+        { "name": "Company Heroes", "points": null, "isCharacter": false },
+        { "name": "Sternguard Veteran Squad", "points": null, "isCharacter": false },
+        { "name": "Assault Intercessor Squad", "points": null, "isCharacter": false },
+        { "name": "Invader ATV", "points": null, "isCharacter": false },
+        { "name": "Impulsor", "points": null, "isCharacter": false },
+        { "name": "Land Raider", "points": null, "isCharacter": false },
+        { "name": "Storm Speeder Thunderstrike", "points": null, "isCharacter": false },
+        { "name": "Gladiator Reaper", "points": null, "isCharacter": false },
+        { "name": "Repulsor", "points": null, "isCharacter": false },
+        { "name": "Captain", "points": "80", "isCharacter": true },
+        { "name": "Lieutenant", "points": null, "isCharacter": true },
+        { "name": "Judiciar", "points": null, "isCharacter": true },
+        { "name": "Librarian In Phobos Armour", "points": null, "isCharacter": true },
+        { "name": "Techmarine", "points": null, "isCharacter": true },
+        { "name": "Chief Librarian Tigurius", "points": null, "isCharacter": true },
+        { "name": "Gravis Captain", "points": null, "isCharacter": true },
+        { "name": "Suboden Khan", "points": null, "isCharacter": true },
+        { "name": "Vulkan Hestan", "points": null, "isCharacter": true },
+        { "name": "Adrax Agatone", "points": null, "isCharacter": true },
+        { "name": "Aethon Shaan", "points": null, "isCharacter": true },
+        { "name": "Kayvaan Shrike", "points": null, "isCharacter": true }
+      ]
+    },
+    {
+      "id": "2b",
+      "name": "More Interesting Datasheets",
+      "description": "Lower half of tier 2",
+      "units": [
+        { "name": "Brutalis Dreadnought", "points": "160", "isCharacter": false },
+        { "name": "Aggressor Squad", "points": null, "isCharacter": false },
+        { "name": "Terminator Assault Squad", "points": null, "isCharacter": false },
+        { "name": "Vanguard Veteran Squad With Jump Packs", "points": null, "isCharacter": false },
+        { "name": "Reiver Squad", "points": null, "isCharacter": false },
+        { "name": "Outrider Squad", "points": null, "isCharacter": false },
+        { "name": "Predator Destructor", "points": null, "isCharacter": false },
+        { "name": "Chaplain", "points": null, "isCharacter": true },
+        { "name": "Apothecary Biologis", "points": null, "isCharacter": true },
+        { "name": "Pedro Kantor", "points": null, "isCharacter": true },
+        { "name": "Captain With Jump Pack", "points": null, "isCharacter": true },
+        { "name": "Chaplain With Jump Pack", "points": null, "isCharacter": true },
+        { "name": "Lysander", "points": null, "isCharacter": true },
+        { "name": "Tor Garadon", "points": null, "isCharacter": true },
+        { "name": "Marneus Calgar in Armour of Antilochus", "points": null, "isCharacter": true },
+        { "name": "Korsarro Khan", "points": null, "isCharacter": true },
+        { "name": "Caanok Var", "points": null, "isCharacter": true }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Usable Datasheets",
+      "description": "Situationally useful units",
+      "units": [
+        { "name": "Heavy Intercessor Squad", "points": "100/200", "isCharacter": false },
+        { "name": "Centurion Assault Squad", "points": null, "isCharacter": false },
+        { "name": "Infernus Squad", "points": null, "isCharacter": false },
+        { "name": "Devastator Squad", "points": null, "isCharacter": false },
+        { "name": "Terminator Squad", "points": null, "isCharacter": false },
+        { "name": "Desolation Squad", "points": null, "isCharacter": false },
+        { "name": "Suppressors", "points": null, "isCharacter": false },
+        { "name": "Eliminators", "points": null, "isCharacter": false },
+        { "name": "Rhino", "points": null, "isCharacter": false },
+        { "name": "Razorback", "points": null, "isCharacter": false },
+        { "name": "Invictor Tactical Warsuit", "points": null, "isCharacter": false },
+        { "name": "Land Raider Crusader", "points": null, "isCharacter": false },
+        { "name": "Predator Annihilator", "points": null, "isCharacter": false },
+        { "name": "Gladiator Valiant", "points": null, "isCharacter": false },
+        { "name": "Stormraven Gunship", "points": null, "isCharacter": false },
+        { "name": "Captain In Terminator Armour", "points": "95", "isCharacter": true },
+        { "name": "Chaplain In Terminator Armour", "points": "75", "isCharacter": true },
+        { "name": "Ancient In Terminator Armour", "points": "75", "isCharacter": true },
+        { "name": "Librarian In Terminator Armour", "points": "75", "isCharacter": true },
+        { "name": "Bladeguard Ancient", "points": null, "isCharacter": true },
+        { "name": "Chaplain On Bike", "points": null, "isCharacter": true },
+        { "name": "Lieutenant In Phobos Armour", "points": null, "isCharacter": true },
+        { "name": "Librarian", "points": null, "isCharacter": true },
+        { "name": "Iron Father Feirros", "points": null, "isCharacter": true }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Overshadowed Datasheets",
+      "description": "Outclassed by other options",
+      "units": [
+        { "name": "Firestrike Servo-turrets", "points": "75/150", "isCharacter": false },
+        { "name": "Drop Pod", "points": null, "isCharacter": false },
+        { "name": "Storm Speeder Hailstrike", "points": null, "isCharacter": false },
+        { "name": "Whirlwind", "points": null, "isCharacter": false },
+        { "name": "Dreadnought", "points": null, "isCharacter": false },
+        { "name": "Tactical Squad", "points": null, "isCharacter": false },
+        { "name": "Ancient", "points": null, "isCharacter": true },
+        { "name": "Apothecary", "points": null, "isCharacter": true },
+        { "name": "Lieutenant In Reiver Armour", "points": null, "isCharacter": true },
+        { "name": "Stormhawk Interceptor", "points": null, "isCharacter": false },
+        { "name": "Stormtalon Gunship", "points": null, "isCharacter": false },
+        { "name": "Lieutenant Titus", "points": null, "isCharacter": true },
+        { "name": "Astraeus", "points": null, "isCharacter": false },
+        { "name": "Captain in Phobos Armour", "points": null, "isCharacter": true }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Weakest Datasheets",
+      "description": "Generally not recommended",
+      "units": [
+        { "name": "Hammerfall Bunker", "points": "175", "isCharacter": false },
+        { "name": "Thunderhawk Gunship", "points": "840", "isCharacter": false }
+      ]
+    }
+  ]
+}
