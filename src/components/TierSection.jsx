@@ -3,20 +3,24 @@ import UnitCard from './UnitCard'
 
 const tierColors = {
   '1': 'border-amber-500 bg-amber-500/10',
+  '2': 'border-lime-500 bg-lime-500/10',
   '2a': 'border-gray-400 bg-gray-400/10',
   '2b': 'border-gray-500 bg-gray-500/10',
   '3': 'border-amber-700 bg-amber-700/10',
-  '4': 'border-orange-800 bg-orange-800/10',
-  '5': 'border-gray-600 bg-gray-600/10',
+  '4': 'border-orange-600 bg-orange-600/10',
+  '5': 'border-red-400 bg-red-400/10',
+  '6': 'border-pink-500 bg-pink-500/10',
 }
 
 const tierBadgeColors = {
   '1': 'bg-amber-500 text-black',
+  '2': 'bg-lime-500 text-black',
   '2a': 'bg-gray-400 text-black',
   '2b': 'bg-gray-500 text-black',
   '3': 'bg-amber-700 text-white',
-  '4': 'bg-orange-800 text-white',
-  '5': 'bg-gray-600 text-white',
+  '4': 'bg-orange-600 text-white',
+  '5': 'bg-red-400 text-white',
+  '6': 'bg-pink-500 text-white',
 }
 
 function TierSection({ tier, defaultExpanded, forceExpanded }) {

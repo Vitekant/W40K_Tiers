@@ -4,8 +4,9 @@ import TierList from './components/TierList'
 import SearchBar from './components/SearchBar'
 import Filters from './components/Filters'
 import spaceMarines from './data/space-marines.json'
+import deathGuard from './data/death-guard.json'
 
-const armies = [spaceMarines]
+const armies = [spaceMarines, deathGuard]
 
 function App() {
   const [selectedArmy, setSelectedArmy] = useState(armies[0])

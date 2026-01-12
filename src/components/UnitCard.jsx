@@ -1,10 +1,12 @@
 const tierBorderColors = {
   '1': 'border-amber-500/30 hover:border-amber-500/60',
+  '2': 'border-lime-500/30 hover:border-lime-500/60',
   '2a': 'border-gray-400/30 hover:border-gray-400/60',
   '2b': 'border-gray-500/30 hover:border-gray-500/60',
   '3': 'border-amber-700/30 hover:border-amber-700/60',
-  '4': 'border-orange-800/30 hover:border-orange-800/60',
-  '5': 'border-gray-600/30 hover:border-gray-600/60',
+  '4': 'border-orange-600/30 hover:border-orange-600/60',
+  '5': 'border-red-400/30 hover:border-red-400/60',
+  '6': 'border-pink-500/30 hover:border-pink-500/60',
 }
 
 function UnitCard({ unit, tierId }) {
@@ -41,9 +43,14 @@ function UnitCard({ unit, tierId }) {
         )}
       </div>
 
-      {unit.points && (
-        <p className="text-xs text-gray-400 mt-1">{unit.points} pts</p>
-      )}
+      <div className="flex items-center justify-between mt-1">
+        {unit.points && (
+          <p className="text-xs text-gray-400">{unit.points} pts</p>
+        )}
+        {unit.price && (
+          <p className="text-xs text-green-400">{unit.price}</p>
+        )}
+      </div>
     </CardWrapper>
   )
 }
