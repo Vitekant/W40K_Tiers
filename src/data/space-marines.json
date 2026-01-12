@@ -12,7 +12,7 @@
         { "name": "Victrix Honour Guard", "points": "120/240", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101453_UltramarinesVictrixHonourGuard1.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/ultramarines-victrix-honour-guard-2025" },
         { "name": "Intercessor Squad", "points": null, "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101190_PrimarisIntercessors01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Space-Marines-Primaris-Intercessors-2020" },
         { "name": "Scout Squad", "points": null, "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199064_KTSalvation3.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/kill-team-scout-squad-2024" },
-        { "name": "Lieutenant With Combi-Weapon", "points": null, "isCharacter": true },
+        { "name": "Lieutenant With Combi-Weapon", "points": null, "isCharacter": true, "imageUrl": "/images/lieutenant_combi_weapon.png" },
         { "name": "Infiltrator Squad", "points": "100/200", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101263_SMPrimarisInfiltrators01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Space-Marines-Primaris-Infiltrators-2020" },
         { "name": "Incursor Squad", "points": null, "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101263_SMPrimarisIncursors01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Space-Marines-Primaris-Incursors-2020" },
         { "name": "Bladeguard Veteran Squad", "points": null, "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101284_SMBladeguardVeteransLeadUltramarines.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Space-Marines-Bladeguard-Veterans-2020" },
@@ -27,7 +27,7 @@
         { "name": "Land Raider Redeemer", "points": null, "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101344_SMLandRaiderCrusaderandRedeemerLead.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Landraider-Redeemer-2020" },
         { "name": "Roboute Guilliman", "points": null, "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101177_TriumvirateofthePrimarch02.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Roboute-Guilliman-Ultramarines-Primarch-2020" },
         { "name": "Marneus Calgar", "points": null, "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101450_UltramarinesMarneusCalgarArmourAntilochus1.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/marneus-calgar-in-armour-of-antilochus-2025" },
-        { "name": "Uriel Ventris", "points": null, "isCharacter": true },
+        { "name": "Uriel Ventris", "points": null, "isCharacter": true, "imageUrl": "/images/uriel_ventris.png" },
         { "name": "Cato Sicarius", "points": null, "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101452_UltramarinesCatoSicarius1.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/ultramarines-cato-sicarius-2025" }
       ]
     },
