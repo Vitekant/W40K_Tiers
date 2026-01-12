@@ -5,8 +5,9 @@ import SearchBar from './components/SearchBar'
 import Filters from './components/Filters'
 import spaceMarines from './data/space-marines.json'
 import deathGuard from './data/death-guard.json'
+import astraMilitarum from './data/astra-militarum.json'
 
-const armies = [spaceMarines, deathGuard]
+const armies = [spaceMarines, deathGuard, astraMilitarum]
 
 function App() {
   const [selectedArmy, setSelectedArmy] = useState(armies[0])

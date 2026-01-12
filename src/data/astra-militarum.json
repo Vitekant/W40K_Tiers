@@ -1,0 +1,122 @@
+{
+  "id": "astra-militarum",
+  "army": "Astra Militarum",
+  "source": "Auspex Tactics YouTube",
+  "lastUpdated": "2025-01-12",
+  "tiers": [
+    {
+      "id": "1",
+      "name": "Strongest Guard Units",
+      "description": "Top tier units",
+      "units": [
+        { "name": "Rogal Dorn Tank Commander", "points": "275", "isCharacter": true },
+        { "name": "Rogal Dorn Battle Tank", "points": "255", "isCharacter": false },
+        { "name": "Cadian Shock Troops", "points": "65/130", "price": "175,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/60020105008_CadianShockTroopsLead.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/astra-militarum-cadian-shock-troops-2023" },
+        { "name": "Cadian Command Squad", "points": "70", "price": "160,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010105001_EngAMCoreGame02.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/astra-militarum-cadian-command-squad-2023" },
+        { "name": "Kasrkin", "points": "65/130", "isCharacter": false },
+        { "name": "Bullgryns", "points": "95/190", "isCharacter": false },
+        { "name": "Attilan Rough Riders", "points": "70/140", "isCharacter": false },
+        { "name": "Leman Russ Vanquisher", "points": "155", "isCharacter": false },
+        { "name": "Catachan Jungle Fighters", "points": "60/120", "price": "140,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105040_AstraMilitarumCatachanJungleFightersUPDATE1.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Imperial-Guard-Catachan-Jungle-Fighters" },
+        { "name": "Chimera", "points": "85", "isCharacter": false },
+        { "name": "Commissar", "points": "35", "isCharacter": true },
+        { "name": "Gaunt's Ghosts", "points": "115", "price": "270,00 PLN", "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105087_GauntsGhostsLead.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Astra-Militarum-Gaunts-Ghosts-2021" }
+      ]
+    },
+    {
+      "id": "2a",
+      "name": "Stronger Guard Units",
+      "description": "Upper half of tier 2",
+      "units": [
+        { "name": "Leman Russ Exterminator", "points": "180", "isCharacter": false },
+        { "name": "Leman Russ Battle Tank", "points": "170", "isCharacter": false },
+        { "name": "Tempestus Scions", "points": "70/140", "price": "160,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105055_TempestusScions01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Militarum-Tempestus-Scions-2017" },
+        { "name": "Tempestus Scions Command Squad", "points": "80", "price": "160,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105055_TempestusScionsCommand01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Militarum-Tempestus-Scions-Command-Squad-2017" },
+        { "name": "Taurox", "points": "85", "isCharacter": false },
+        { "name": "Lord Solar Leontus", "points": "150", "isCharacter": true }
+      ]
+    },
+    {
+      "id": "2b",
+      "name": "Stronger Guard Units",
+      "description": "Lower half of tier 2",
+      "units": [
+        { "name": "Scout Sentinels", "points": "55/110", "isCharacter": false },
+        { "name": "Hellhound", "points": "110", "isCharacter": false },
+        { "name": "Leman Russ Executioner", "points": "195", "isCharacter": false },
+        { "name": "Death Korps Infantry Squad", "points": "65/130", "isCharacter": false },
+        { "name": "Ratlings", "points": "50", "price": "230,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105132_ENGKTBrutalCunning2.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/kill-team-ratlings-2025" },
+        { "name": "Lord Castellan Ursula Creed", "points": "55", "price": "160,00 PLN", "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105096_AMLordCastellanUrsulaCreed01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/astra-militarum-lord-castellan-ursula-creed-2023" },
+        { "name": "Tech-Priest Enginseer", "points": "55", "price": "140,00 PLN", "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070105002_TechpriestEnginseer01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Astra-Militarum-Tech-Priest-Enginseer" }
+      ]
+    },
+    {
+      "id": "3a",
+      "name": "More Usable Units",
+      "description": "Upper half of tier 3",
+      "units": [
+        { "name": "Krieg Combat Engineers", "points": "60/95", "isCharacter": false },
+        { "name": "Death Riders", "points": "80/160", "isCharacter": false },
+        { "name": "Tempestus Aquilons", "points": "90/180", "isCharacter": false },
+        { "name": "Ogryns", "points": "75/150", "isCharacter": false },
+        { "name": "Krieg Heavy Weapons Squad", "points": "60/120", "isCharacter": false },
+        { "name": "Krieg Command Squad", "points": "70", "isCharacter": false },
+        { "name": "Cadian Heavy Weapons Squad", "points": "60/120", "price": "175,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105097_AMCadianHeavyWeaponsSquad01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/astra-militarum-cadian-heavy-weapons-squad-2023" },
+        { "name": "Catachan Heavy Weapons Squad", "points": "60/120", "price": "160,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105014_CatachanHeavyWeaponsNEW01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Imperial-Guard-Catachan-Heavy-Weapon-Squad" },
+        { "name": "Field Ordnance Battery", "points": "85/170", "price": "195,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105104_AMFieldOrdnanceBattery01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/astra-militarum-field-ordnance-battery-2023" },
+        { "name": "Artillery Team", "points": "55", "isCharacter": false },
+        { "name": "Basilisk", "points": "130", "isCharacter": false },
+        { "name": "Armoured Sentinels", "points": "70/140", "isCharacter": false },
+        { "name": "Leman Russ Punisher", "points": "175", "isCharacter": false },
+        { "name": "Leman Russ Eradicator", "points": "155", "isCharacter": false },
+        { "name": "Tank Commander", "points": "215", "isCharacter": true },
+        { "name": "Sly Marbo", "points": "55", "isCharacter": true },
+        { "name": "Cadian Castellan", "points": "45", "price": "140,00 PLN", "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105100_CadianCastellan1.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/astra-militarum-cadian-castellan-2023" }
+      ]
+    },
+    {
+      "id": "3b",
+      "name": "More Usable Units",
+      "description": "Lower half of tier 3",
+      "units": [
+        { "name": "Taurox Prime", "points": "90", "isCharacter": false },
+        { "name": "Ogryn Bodyguard", "points": "55", "isCharacter": true },
+        { "name": "Nork Deddog", "points": "70", "isCharacter": true },
+        { "name": "Cyclops Demolition Vehicle", "points": "50", "isCharacter": false },
+        { "name": "Catachan Command Squad", "points": "70", "price": "140,00 PLN", "isCharacter": false, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105037_CatachanCommandSquadNEW01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/Imperial-Guard-Catachan-Command-Squad" },
+        { "name": "Primaris Psyker", "points": "60", "price": "121,00 PLN", "isCharacter": true, "imageUrl": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070105003_AMPrimarisPsyker01.jpg", "storeUrl": "https://www.warhammer.com/en-PL/shop/astra-militarum-primaris-psyker-2023" },
+        { "name": "Hydra", "points": "100", "isCharacter": false },
+        { "name": "Baneblade", "points": "500", "isCharacter": false },
+        { "name": "Banehammer", "points": "480", "isCharacter": false },
+        { "name": "Banesword", "points": "480", "isCharacter": false },
+        { "name": "Doomhammer", "points": "480", "isCharacter": false },
+        { "name": "Hellhammer", "points": "480", "isCharacter": false },
+        { "name": "Shadowsword", "points": "480", "isCharacter": false },
+        { "name": "Stormlord", "points": "480", "isCharacter": false },
+        { "name": "Stormsword", "points": "480", "isCharacter": false }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Weaker / Overshadowed Datasheets",
+      "description": "Situationally useful",
+      "units": [
+        { "name": "Lord Marshal Dreir", "points": "100", "isCharacter": true },
+        { "name": "Ministorum Priest", "points": "45", "isCharacter": true },
+        { "name": "Deathstrike", "points": "140", "isCharacter": false },
+        { "name": "Wyvern", "points": "115", "isCharacter": false },
+        { "name": "Manticore", "points": "120", "isCharacter": false },
+        { "name": "Valkyrie", "points": "160", "isCharacter": false },
+        { "name": "Avenger Strike Fighter", "points": "165", "isCharacter": false }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Weakest Datasheets",
+      "description": "Generally not recommended",
+      "units": [
+        { "name": "Aegis Defence Line", "points": "145", "isCharacter": false }
+      ]
+    }
+  ]
+}

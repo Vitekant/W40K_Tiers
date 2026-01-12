@@ -4,6 +4,8 @@ const tierBorderColors = {
   '2a': 'border-gray-400/30 hover:border-gray-400/60',
   '2b': 'border-gray-500/30 hover:border-gray-500/60',
   '3': 'border-amber-700/30 hover:border-amber-700/60',
+  '3a': 'border-amber-600/30 hover:border-amber-600/60',
+  '3b': 'border-amber-800/30 hover:border-amber-800/60',
   '4': 'border-orange-600/30 hover:border-orange-600/60',
   '5': 'border-red-400/30 hover:border-red-400/60',
   '6': 'border-pink-500/30 hover:border-pink-500/60',
