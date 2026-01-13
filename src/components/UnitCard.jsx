@@ -17,6 +17,15 @@ function UnitCard({ unit, tierId }) {
   const CardWrapper = unit.storeUrl ? 'a' : 'div'
   const wrapperProps = unit.storeUrl ? { href: unit.storeUrl, target: '_blank', rel: 'noopener noreferrer' } : {}
 
+  // Handle local images with base path for GitHub Pages
+  const getImageUrl = (url) => {
+    if (!url) return null
+    if (url.startsWith('http')) return url
+    // Local images need the base path prepended
+    const base = import.meta.env.BASE_URL || '/'
+    return `${base}${url.startsWith('/') ? url.slice(1) : url}`
+  }
+
   return (
     <CardWrapper
       {...wrapperProps}
@@ -24,7 +33,7 @@ function UnitCard({ unit, tierId }) {
     >
       {unit.imageUrl ? (
         <img
-          src={unit.imageUrl}
+          src={getImageUrl(unit.imageUrl)}
           alt={unit.name}
           className="w-full h-24 object-cover rounded mb-2 bg-gray-700"
         />
