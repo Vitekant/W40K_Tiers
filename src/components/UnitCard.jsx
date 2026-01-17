@@ -14,22 +14,24 @@ const tierBorderColors = {
 function UnitCard({ unit, tierId }) {
   const borderClass = tierBorderColors[tierId] || tierBorderColors['3']
 
-  const CardWrapper = unit.storeUrl ? 'a' : 'div'
-  const wrapperProps = unit.storeUrl ? { href: unit.storeUrl, target: '_blank', rel: 'noopener noreferrer' } : {}
-
   // Handle local images with base path for GitHub Pages
   const getImageUrl = (url) => {
     if (!url) return null
     if (url.startsWith('http')) return url
-    // Local images need the base path prepended
     const base = import.meta.env.BASE_URL || '/'
     return `${base}${url.startsWith('/') ? url.slice(1) : url}`
   }
 
+  // Card wrapper - links to Wahapedia if available
+  const CardWrapper = unit.wahapediaUrl ? 'a' : 'div'
+  const cardWrapperProps = unit.wahapediaUrl
+    ? { href: unit.wahapediaUrl, target: '_blank', rel: 'noopener noreferrer' }
+    : {}
+
   return (
     <CardWrapper
-      {...wrapperProps}
-      className={`block bg-gray-800 rounded-lg border ${borderClass} p-3 transition-all hover:bg-gray-750 active:scale-[0.98] ${unit.storeUrl ? 'cursor-pointer' : ''}`}
+      {...cardWrapperProps}
+      className={`block bg-gray-800 rounded-lg border ${borderClass} p-3 transition-all hover:bg-gray-750 active:scale-[0.98] ${unit.wahapediaUrl ? 'cursor-pointer' : ''}`}
     >
       {unit.imageUrl ? (
         <img
@@ -58,9 +60,19 @@ function UnitCard({ unit, tierId }) {
         {unit.points && (
           <p className="text-xs text-gray-400">{unit.points} pts</p>
         )}
-        {unit.price && (
+        {unit.price && unit.storeUrl ? (
+          <a
+            href={unit.storeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="text-xs text-green-400 hover:text-green-300 hover:underline transition-colors"
+          >
+            {unit.price}
+          </a>
+        ) : unit.price ? (
           <p className="text-xs text-green-400">{unit.price}</p>
-        )}
+        ) : null}
       </div>
     </CardWrapper>
   )
